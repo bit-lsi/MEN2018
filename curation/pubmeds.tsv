@@ -1,15 +1,15 @@
-PubMedID	Molecule
-19969070	7-keto-DHEA
-21387008	7-keto-DHEA
-25036103	7-keto-DHEA
-30063760	7-keto-DHEA
-21035514	7-keto-DHEA
-28116245	7-keto-DHEA
-28124620	MAOB
-29417334	MAOB
-26205378	MAOB
-25407931	IRS1
-24559646	IRS1
-25534921	IRS1
-X	TREM2
-X	IGF1R
+pmid	molecule	curie
+19969070	7-keto-DHEA	pubchem.compound:193313
+21387008	7-keto-DHEA	pubchem.compound:193313
+25036103	7-keto-DHEA	pubchem.compound:193313
+30063760	7-keto-DHEA	pubchem.compound:193313
+21035514	7-keto-DHEA	pubchem.compound:193313
+28116245	7-keto-DHEA	pubchem.compound:193313
+28124620	MAOB	hgnc.symbol:MAOB
+29417334	MAOB	hgnc.symbol:MAOB
+26205378	MAOB	hgnc.symbol:MAOB
+25407931	IRS1	hgnc.symbol:IRS1
+24559646	IRS1	hgnc.symbol:IRS1
+25534921	IRS1	hgnc.symbol:IRS1
+X	TREM2	hgnc.symbol:TREM2
+X	IGF1R	hgnc.symbol:IGF1R

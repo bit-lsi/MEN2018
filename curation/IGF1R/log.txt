@@ -1,0 +1,1603 @@
+WARNING: [2019-02-15 16:41:04] indra.sources.reach.api - Could not import jnius, offline reading option will not be available.
+WARNING: [2019-02-15 16:41:05] indra.config - Key SITEMAPPER_CACHE_PATH not in environment or config file.
+INFO: [2019-02-15 16:41:05] indra.sources.indra_db_rest.processor - The remainder of the query will be performed in a thread...
+INFO: [2019-02-15 16:41:05] indra.sources.indra_db_rest.util - url and query string: https://db.indra.bio/statements/from_agents?offset=0&agent0=IGF1R
+INFO: [2019-02-15 16:41:05] indra.sources.indra_db_rest.util - headers: {}
+INFO: [2019-02-15 16:41:05] indra.sources.indra_db_rest.util - data: None
+INFO: [2019-02-15 16:41:05] indra.sources.indra_db_rest.processor - Waiting for thread to complete...
+INFO: [2019-02-15 16:41:05] indra.sources.indra_db_rest.util - params: {'ev_limit': 10, 'best_first': True, 'api_key': '[api-key]'}
+WARNING: [2019-02-15 16:41:34] indra.sources.indra_db_rest.util - Endpoint timed out. Trying again...
+INFO: [2019-02-15 16:41:47] indra.sources.indra_db_rest.util - url and query string: https://db.indra.bio/statements/from_agents?offset=500&agent0=IGF1R
+INFO: [2019-02-15 16:41:47] indra.sources.indra_db_rest.util - headers: {}
+INFO: [2019-02-15 16:41:47] indra.sources.indra_db_rest.util - data: None
+INFO: [2019-02-15 16:41:47] indra.sources.indra_db_rest.util - params: {'ev_limit': 10, 'best_first': True, 'api_key': '[api-key]'}
+INFO: [2019-02-15 16:41:51] indra.sources.indra_db_rest.util - url and query string: https://db.indra.bio/statements/from_agents?offset=1000&agent0=IGF1R
+INFO: [2019-02-15 16:41:51] indra.sources.indra_db_rest.util - headers: {}
+INFO: [2019-02-15 16:41:51] indra.sources.indra_db_rest.util - data: None
+INFO: [2019-02-15 16:41:51] indra.sources.indra_db_rest.util - params: {'ev_limit': 10, 'best_first': True, 'api_key': '[api-key]'}
+INFO: [2019-02-15 16:41:53] indra.sources.indra_db_rest.util - url and query string: https://db.indra.bio/statements/from_agents?offset=1500&agent0=IGF1R
+INFO: [2019-02-15 16:41:53] indra.sources.indra_db_rest.util - headers: {}
+INFO: [2019-02-15 16:41:53] indra.sources.indra_db_rest.util - data: None
+INFO: [2019-02-15 16:41:53] indra.sources.indra_db_rest.util - params: {'ev_limit': 10, 'best_first': True, 'api_key': '[api-key]'}
+INFO: [2019-02-15 16:41:58] indra.sources.indra_db_rest.util - url and query string: https://db.indra.bio/statements/from_agents?offset=2000&agent0=IGF1R
+INFO: [2019-02-15 16:41:58] indra.sources.indra_db_rest.util - headers: {}
+INFO: [2019-02-15 16:41:58] indra.sources.indra_db_rest.util - data: None
+INFO: [2019-02-15 16:41:58] indra.sources.indra_db_rest.util - params: {'ev_limit': 10, 'best_first': True, 'api_key': '[api-key]'}
+INFO: [2019-02-15 16:42:04] indra.sources.indra_db_rest.util - url and query string: https://db.indra.bio/statements/from_agents?offset=2500&agent0=IGF1R
+INFO: [2019-02-15 16:42:04] indra.sources.indra_db_rest.util - headers: {}
+INFO: [2019-02-15 16:42:04] indra.sources.indra_db_rest.util - data: None
+INFO: [2019-02-15 16:42:04] indra.sources.indra_db_rest.util - params: {'ev_limit': 10, 'best_first': True, 'api_key': '[api-key]'}
+INFO: [2019-02-15 16:42:10] indra.sources.indra_db_rest.util - url and query string: https://db.indra.bio/statements/from_agents?offset=3000&agent0=IGF1R
+INFO: [2019-02-15 16:42:10] indra.sources.indra_db_rest.util - headers: {}
+INFO: [2019-02-15 16:42:10] indra.sources.indra_db_rest.util - data: None
+INFO: [2019-02-15 16:42:10] indra.sources.indra_db_rest.util - params: {'ev_limit': 10, 'best_first': True, 'api_key': '[api-key]'}
+INFO: [2019-02-15 16:42:16] indra.sources.indra_db_rest.util - url and query string: https://db.indra.bio/statements/from_agents?offset=3500&agent0=IGF1R
+INFO: [2019-02-15 16:42:16] indra.sources.indra_db_rest.util - headers: {}
+INFO: [2019-02-15 16:42:16] indra.sources.indra_db_rest.util - data: None
+INFO: [2019-02-15 16:42:16] indra.sources.indra_db_rest.util - params: {'ev_limit': 10, 'best_first': True, 'api_key': '[api-key]'}
+INFO: [2019-02-15 16:42:22] indra.sources.indra_db_rest.util - url and query string: https://db.indra.bio/statements/from_agents?offset=4000&agent0=IGF1R
+INFO: [2019-02-15 16:42:22] indra.sources.indra_db_rest.util - headers: {}
+INFO: [2019-02-15 16:42:22] indra.sources.indra_db_rest.util - data: None
+INFO: [2019-02-15 16:42:22] indra.sources.indra_db_rest.util - params: {'ev_limit': 10, 'best_first': True, 'api_key': '[api-key]'}
+INFO: [2019-02-15 16:42:27] indra.sources.indra_db_rest.util - url and query string: https://db.indra.bio/statements/from_agents?offset=4500&agent0=IGF1R
+INFO: [2019-02-15 16:42:27] indra.sources.indra_db_rest.util - headers: {}
+INFO: [2019-02-15 16:42:27] indra.sources.indra_db_rest.util - data: None
+INFO: [2019-02-15 16:42:27] indra.sources.indra_db_rest.util - params: {'ev_limit': 10, 'best_first': True, 'api_key': '[api-key]'}
+INFO: [2019-02-15 16:42:33] indra.sources.indra_db_rest.util - url and query string: https://db.indra.bio/statements/from_agents?offset=5000&agent0=IGF1R
+INFO: [2019-02-15 16:42:33] indra.sources.indra_db_rest.util - headers: {}
+INFO: [2019-02-15 16:42:33] indra.sources.indra_db_rest.util - data: None
+INFO: [2019-02-15 16:42:33] indra.sources.indra_db_rest.util - params: {'ev_limit': 10, 'best_first': True, 'api_key': '[api-key]'}
+INFO: [2019-02-15 16:42:38] indra.tools.assemble_corpus - Combining duplicates on 5217 statements...
+INFO: [2019-02-15 16:42:42] indra.tools.assemble_corpus - 5217 unique statements
+INFO: [2019-02-15 16:42:42] indra.tools.assemble_corpus - Combining related on 5217 statements...
+INFO: [2019-02-15 16:42:42] indra.preassembler - Grouping Acetylation (4)
+INFO: [2019-02-15 16:42:42] indra.preassembler - Grouping Activation (1522)
+INFO: [2019-02-15 16:42:45] indra.preassembler - Grouping ActiveForm (14)
+INFO: [2019-02-15 16:42:45] indra.preassembler - Grouping Autophosphorylation (5)
+INFO: [2019-02-15 16:42:45] indra.preassembler - Grouping Complex (713)
+INFO: [2019-02-15 16:42:45] indra.preassembler - Grouping Deacetylation (1)
+INFO: [2019-02-15 16:42:45] indra.preassembler - Grouping DecreaseAmount (726)
+INFO: [2019-02-15 16:42:45] indra.preassembler - Grouping Deglycosylation (3)
+INFO: [2019-02-15 16:42:45] indra.preassembler - Grouping Dephosphorylation (184)
+INFO: [2019-02-15 16:42:45] indra.preassembler - Grouping Desumoylation (1)
+INFO: [2019-02-15 16:42:45] indra.preassembler - Grouping Deubiquitination (10)
+INFO: [2019-02-15 16:42:45] indra.preassembler - Grouping Glycosylation (4)
+INFO: [2019-02-15 16:42:45] indra.preassembler - Grouping IncreaseAmount (532)
+INFO: [2019-02-15 16:42:46] indra.preassembler - Grouping Inhibition (984)
+INFO: [2019-02-15 16:42:46] indra.preassembler - Grouping Methylation (2)
+INFO: [2019-02-15 16:42:46] indra.preassembler - Grouping Myristoylation (1)
+INFO: [2019-02-15 16:42:46] indra.preassembler - Grouping Phosphorylation (453)
+INFO: [2019-02-15 16:42:46] indra.preassembler - Grouping Sumoylation (2)
+INFO: [2019-02-15 16:42:46] indra.preassembler - Grouping Translocation (10)
+INFO: [2019-02-15 16:42:46] indra.preassembler - Grouping Ubiquitination (45)
+INFO: [2019-02-15 16:42:46] indra.preassembler - Grouping Conversion (1)
+INFO: [2019-02-15 16:42:52] indra.tools.assemble_corpus - Filtering 5217 statements for top-level...
+INFO: [2019-02-15 16:42:52] indra.tools.assemble_corpus - 4863 statements after filter...
+INFO: [2019-02-15 16:42:52] indra.tools.assemble_corpus - 4863 top-level statements
+INFO: [2019-02-15 16:42:52] indra.tools.assemble_corpus - Filtering 4863 statements to above 0.300000 belief
+INFO: [2019-02-15 16:42:52] indra.tools.assemble_corpus - 4863 statements after filter...
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent (1-3)IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent 13GFEZL() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent 2-DG() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent AB4() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent ADAM12-S() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent ALK inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent APS-3c() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent AR inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent AR-C574R() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent AR-C619Y() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent ATCC() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent AVE1642() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Abeta oligomers() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Abeta1-42 oligomers() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent AspB10() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent BCR-ABL() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent BET inhibitors() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent BIIB4() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent BIIB5() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent BM-Str() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Bcr-abl kinases() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent BsAb() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent C+hMSCs() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent CDDP-R() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent CDR1as() has no grounding.
+INFO: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent CHAT(mods: (modification))
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent CP751,871() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent CR1166() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Calcineurin() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Calveolin() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Caveolin proteins() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Cixutumumab() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent CoCl 2() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Crk II() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent EE() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent EGFR inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGFR() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent ER/PR/PELP1() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent ERs() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent EWS-FLI1() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Ex-4() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent FLI-1 siRNA() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Figitumumab() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent G betagamma  subunits() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent GCNT2/I() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent GD-IgG like IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent GD-IgG() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent GO-Igs() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent GSK690603() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent GSK690693() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Ganitumab() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Goldspink-MGF() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent HBEC() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent HBxAg() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent HDAC inhibitors() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent HMJ-30() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent HRG-beta1() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Hsp90 inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IFG-1() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF ligand-neutralizing antibodies() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF ligands() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-1 mRNA() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-1 receptor() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-1/-2 neutralizing antibodies() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-1R antibodies() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-1R antibody() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-1R inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-1R mRNA() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-1R monoclonal antibodies() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-1Rmab() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-IR antibodies() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-binding proteins() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF1 protein can() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF1R inhibitors() has no grounding.
+INFO: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Skipping modification of type sumoylation on agent IGF1R(mods: (sumoylation))
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent AG-1024(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent AKT inhibitor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent AKT-ERK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent APS-3c(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Akt/mTOR/p70S6K signal pathway profile(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Akt/mTOR/p70S6K(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Akt1-3(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent BCR-ABL+(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent BK5(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent BRAF inhibitor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent CD24+(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent CDK4/6 inhibitor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent CDR1as(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent CaMKIIalpha(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent CamKIIalpha(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Cav3.2(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent DPMSC colony(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent DSB repair(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Dox(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent EAT(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent EGFR-TKIs(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent EGFR.Shc complexes(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent ERK-MAPK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent ERK-caspases(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent GABA-R(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent H0-1-u-1(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent H19-DMR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent HBEC(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent HIF-1alpha-NanoLuc(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent HNSCC(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent HRR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IC-IGF-1(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IFNgamma-LPS(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF ligand(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF receptor 1(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF system genes(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF system proteins(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF)-I(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-1 hybrid receptors(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-1 receptor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-1R beta-chain(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-1R promoter(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-1R transgene(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF1 receptor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF1-INOP-Dox(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF1-IONP-Dox(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IR-A(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IR/IGF-IR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IR/IGF1R(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IRA(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IU/100 mul(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent LACSLC(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent LC3-II(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent LDD(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent LUNAR1(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent MAPK-ERK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent MEK-Erk1/2(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent MK-0646(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent MOCM(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent MTB-IGFIR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Mvt-1(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent NHEK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent NSCLC(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent NcEc mutant(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent PAX3-FKHR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent PAX3-FOXO1(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent PC9 EGFR(activity, muts: (None, None, None)) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent PI-3K-Akt(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent PI3K-AKT-mTOR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent PI3K-Akt-mTOR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent PI3K-Akt(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent PI3K-protein kinase B(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent PI3K/AKT/TORC1(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent PI3K/AKT/mTOR axis(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent PI3K/AKT/mTOR/PKM2(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent PI3K/AKT/mTOR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent PI3K/Akt/mTOR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent PI3kinase-Akt(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent PKC isoforms(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent PTPases(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent PU-H71(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent RAF inhibitor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent RAF-MEK-ERK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent RAS/RAF/MAPK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent RAS/RAF/MEK/ERK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent RTK/PI3K/mTOR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Raf-MEK-ERK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Raf/MEK/ERK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Ras-ERK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Ras-MAPK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Ras-Raf-MEK-ERK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Ras-Raf-mitogen-activated protein kinase-extracellular receptor kinase(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Ras/MEK/ERK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Ras/Raf/MAPK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Ras/Raf/MEK/ERK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Ras/Raf/MEK/MAPK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Ras/Raf/mitogen-activated protein kinase(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Ras/raf/MAPK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Resistance(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Signal transducers and activators of transcription-3(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent TNBC(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Trastuzumab failure(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Ubiquitin Conjugating Enzyme(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent VemR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent YapS112A(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent [(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent alpha-crystallins(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent alpha5beta1(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent alphavbeta3(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent anti-ErbB2 antibody trastuzumab(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent anti-GH antibodies(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent beta- catenins(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent beta-arr1(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent beta-arrestin-mediated receptor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent beta-arrestin(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent c-MET receptor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent calcium-calmodulin dependent kinase II(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent dominant negative receptor mutant(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent dopaminergic(activity, muts: (D, 2, R)) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent ephrin B2(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent figitumumab(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent gene 1(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent glucose(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent growth factor receptor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent hESCs(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent hPMSC(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent heterotrimeric G-protein(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent hippocampal Abeta peptide(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent hsa-miR-99a(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent hybrid IGF-1R/IR receptor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent hypoxia-inducible factor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent insulin holoreceptors(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent insulin receptors(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent insulin-like growth factor receptor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent interleukins(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent let-7 family(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent let-7b(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent let-7d-5p(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent let-7g-5p(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent loxp(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent luciferase reporter construct(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent luciferase reporter genes(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent mEp Ephb2(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent mTORC2-PKCalpha/beta -actin(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-122(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-1275(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-133(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-133a-3p(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-140(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-143-3p(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-143(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-148a/152(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-182(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-194(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-195(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-203a-3p(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-223(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-30a-5p(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-375(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-376a/c(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-455(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-503(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-515-5p(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-592(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-598(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-675-3p(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-675(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-99b-5p/203a-3p(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent miR-99b-5p(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent mitogen activated protein kinase(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent mitogen-activated protein(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent neointima(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent nu miRNA-323-5p(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent nuclear factor-kappaB(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent pAKT in hormone receptor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent phosphatidylinositide 3-kinase(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent phosphinositide-3 kinase(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent phosphoinositide 3 kinase(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent phosphoinositide 3-kinase(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent phosphorylated-extracellular signal-regulated kinase(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent post ALK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent protein kinase Cdelta(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent ras/raf/mitogen activated protein kinase(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent stress-activated protein kinases(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent tERG(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent tumor burden(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent ubiquitin-proteasome(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent wild-type GIST(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent ab')2(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-IR-Ras-Raf-MAPKK-ERK1/2(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-1/2() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IGF-1/2() has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent IRS1/PI3K/Akt1(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Ras-Raf-ERK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent Ras-mitogen-activated protein kinase(activity) has no grounding.
+WARNING: [2019-02-15 16:42:52] indra.assemblers.pybel.assembler - Agent phosphatidyloinositol 3-kinase(activity) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Ras-Raf-ERK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent NT157() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ganitumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF1Ralpha() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent RGD() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGFBP(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGFs() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IMC-A12() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent INSRB() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IR-A() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IRES inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IRS1-4() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IRS1/2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IgG antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IgG1 mAb() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IgG1 monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IgG2 monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IgG() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IgGs() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Igfbp5a knockdown() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Igfs() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Insulin3() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent JLFC01() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent KZ-41() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Kirsten rat sarcoma viral oncogene homolog() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent LDK() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent LL-37() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent LMP-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent LUNAR1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Let-7c() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MAB391() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MEKDD() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MGF() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MK-0646() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MLS128() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MM-141() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MbetaCD() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MiR-139() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MiR-140() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MiR-143-3p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MiR-145-5p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MiR-223() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MiR-323-5p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MiR-376c() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MicroRNA-30a-5p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MicroRNA-7() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Mut K-Ras() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent NE-CM() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent NF2(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent NKI() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent NT157() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent OKT-3() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent OSI-906() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent OxLDL() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PAX3-FKHR() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PAX3-FOXO1 fusion() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PAX3-FOXO1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PC-9/GR/WR() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PDECs() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PI3K/AKT/TORC1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PI3K/AKT/mTOR() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PIXalpha() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PNA)-spacer-insulin-like
+growth factor 1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent POMx() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PQ401() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PY-PE() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PregEx() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent RAF/MEK/ERK() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent RBP2-ER() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent RGD() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent RNAi() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent SCH717454() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent SHHSTc() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Short hairpin RNA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Small molecule kinase inhibitors() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent T-ERG() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent T-IGF1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent TAE-684() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent TAE226() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent TECs() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent TGFbeta/nodal/activin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent TNBC() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent TRA-i1H() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent TRI complex() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent TZD() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent TZMB() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Th2 cytokines() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent TriMAb 1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent WP760() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent XL-228() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent XMetA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent YapS112A() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent [1-3]IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent alpha-IR3() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent alphaIR3 antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent alphaVbeta3() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent anti IGF-IR antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent anti-IGF-1R antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent anti-IGF-IR antibodies() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent anti-vimentin antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta 1  integrins() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta-AR() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta-arr1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta-arr2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta-arrestin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta1 integrin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta1 integrins() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta1-integrin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta3 integrin receptor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta3 integrin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent bioavailable IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent c-kit() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent cetuximab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent chimaphilin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent cixutumumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent classical IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent cpd_P() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent disintegrin receptor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent endogenous IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent estrogen receptors() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent exogenous IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent extracellular IGF binding proteins() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent figitumumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent flotillin-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ganitumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent gene 2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent glabridin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent glucose() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent growth factor receptor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent h7C10() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent hormone() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent hsa-let-7c() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent hsa-miR-375() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent hsa-miR-99a() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent insulin IGF1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent insulin like growth factor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent insulin receptor inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent insulin3() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent intact IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent intrinsic IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent lambda monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent let-7 binding sites() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent let-7a1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent let-7b() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent let-7c() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent let-7d-5p/3p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent let-7d-5p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ligand IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent luciferase reporter construct() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent mAb IgG2 subtype() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent mIGF-II() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent mTORC() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-100() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-122-5p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-122() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-125b() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-1275() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-130a() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-133() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-133a-3p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-133a() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-133b() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-139() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-140() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-143/145() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-143() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-148a() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-152() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-15b/16-2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-194-5p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-194() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-195() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-223 targets() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-223-3p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-223() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-29a-3p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-302b-3p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-30a-5p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-31*() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-320() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-342-3p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-369-3p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-375() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-378() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-378a-3p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-381() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-455() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-493() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-494() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-497() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-503() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-515-5p binding sites() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-539() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-592() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-630() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-675() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-96() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-99 family() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-99() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-99a/let7c/125b-2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-99b-5p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-99b() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miRNA-122() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miRNA-194() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miRNA-375() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent microRNA-342-3p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent monoclonal IgG1 antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent novel humanized antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ofNedd4() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent oncogene T-ERG() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent p53/MDM2/IGF-1R network() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent pEABE-bleo IGF-1R() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent pan-caspase inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent protein kinase C inhibitors() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent protein tyrosine kinase inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent pyrrolopyrimidine GSK1173862A() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent rIGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent rIGF-2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ras oncogene() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent related growth factor IGF-2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent rhIGF-I() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent rhPAPPA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent scFv-Fc() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent sfRON() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent small interfering RNA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent targets() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent tetravalent Fc-containing antibodies() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent trapping IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent vitronectin receptor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent wild type IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1R 3'UTR() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ab')2-R1507 fragments() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent 125I-IGF1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent 1A2G11() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent 6S() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent A12() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AVE-1642 antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AVE1642 (a humanized monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AVE1642() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Abeta 1-42() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent GnRH() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent BCR-ABL() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Beta1 integrins() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent BovineHD2100001405 (rs133992914) SNP() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent CKS1BP7() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Cixutumumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Crk II() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Crk-II() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent DNA-PK() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent E-cad extracellular domain() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent E2/estrogen receptor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent EGFR receptor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent EI-04() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent EPs() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ER/PR() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ErbB receptors() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent FAK-NT2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent G-alpha family() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent GCPR() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent GD-IgG() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent proline() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Ganitumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Ganitumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent L2 domain() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent HMJ-30() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent HPV-16() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IFG-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IFG1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF analog() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF binding proteins() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF ligand() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF ligands IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF ligands() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF)-II() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1 ligand() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1/2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-2 ligands() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-I C-domain() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-IR promoter DNA and 2() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type sumoylation on agent IGF1R(mods: (sumoylation))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PTK() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGFs() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IMC-A12() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent INSR-A() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent INSRA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PTK() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IR hemireceptors() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IR-A() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IR-B() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IR/IGF-IR hybrid receptors() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IRAB-A() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IRA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IRSBPs proteins() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IgG 1/lambda monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IgG1 anti-IGF1R monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IgG1 antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IgG1 monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IgGs() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent InsR receptors() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent JC virus large T-antigen() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent KL2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent LDK() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent LL-37() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MK-0646, humanized IGF-1 mAB() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MK-0646() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MM-141() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Met-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PyVmT() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent NPM-ALK() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent NT157() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Ob-Rb() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PDGFRs() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PI3KR1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent tyrosine 1316() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PTB-U-box() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PTK() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PTPalpha() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Picropodophylin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent RG1507() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Ras/Raf/MEK/ERK() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Rg5() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent S-transferase-hSOCS-2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent SCH717454() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent SH2 domains() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent SH2 domains() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent growth receptor binding protein-2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Tyr950() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent STI domains() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Single-domain Adnectins() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent T-IGF1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent VVA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent XGFR() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent [ 18 F]1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent [(125)I]-R(3)-IGF-I() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent active IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent alphaCT peptide() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent alphaVbeta3() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent alphabeta() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent alphav integrin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent alphavbeta3() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent anti-IGF-IR antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta 1  cytoplasmic domain() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta 1  integrins() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta-Arrestins() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta-arr() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta-arrestin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta1 integrin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta1-integrin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent c-Kit() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent cMET() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent cixutumumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent erbB2 receptor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent estrogen receptor-alpha() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ganitumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent glucose() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent glucose() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent hSOCS-1 protein() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent hSOCS-2 protein() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent hSOCS-2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent hsa-let-7c() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent humanized IGF-1R monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent humanized IgG1 monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent immunoglobulins() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent insulin like() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent natural ligand IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent insulin receptors() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent intact IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent lGF-I() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ligand IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent metalloproteinase() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-122() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-139() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-194() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-195() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-223() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-342-3p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-375() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-497() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-99a() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miRNA-15a-5p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miRNA-497() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent misc-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent monoclonal IgG1 antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent p52Shc() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent rIGF-II() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent recombinant humanized IgG1 monoclonal antagonist antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent twin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent 25mugml -1  cixutumumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent 2alpha() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent 3-Cl-AHPC stimulated miR-150*() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent 3-Cl-AHPC() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent APC(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent APS-3c() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AS[S]ODN() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AT2 receptors() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AT2R() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AUY922() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AVE1642() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AZ12253801() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent BMI1(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent BRCA1(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent CDR1as() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent CR1166() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent DCN(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent DOX() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent EM164() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent ESR1(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent EVs() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent FOLFOX() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent FOXO1(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Figitumumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Glucose() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent HG() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent HSP90 inhibitors() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent HSPA5(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent HuIFN-beta() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1R RNAi() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1R crosstalks() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1R mRNA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1R siRNA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1r siRNA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-IR ASO() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-IR specific siRNA() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF1-IGF1R complexes() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent early growth response 1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent -II mRNA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent CDR1as() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF binding protein() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-2 polypeptide and receptor gene() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF1 receptor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGFIR protein() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IR-B() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IgE() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent c-fms() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ephrin B2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent glucose() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-378() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-503() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-99a() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent small Hsps() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent hypoxia-inducing factor-1alpha() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF2BP3(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF2(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IMC-A12() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IR inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IgG1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Igf-1r siRNA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Let-7c() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Let-7i(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MAB391() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent MIR7-1(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MK-0646() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Mab 391() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MbetaCD() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MiR-133b() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MiR-223() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MiR-378a-3p(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MiR-379() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MiR-497() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MiR-99a() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MiRNA-323-5p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MicroRNA-100() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent OSI-906() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent OxLDL() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PROM cases() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PTB-U-box() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent PTEN(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent RELB(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent RETN(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent RNAi() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent SP2043() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent SYVN1(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent TP53(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent TXT() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent UTI() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent VEGF(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent VHL(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent [() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ad-shIGF-1R() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent anti-IGF-1R monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta-arr2(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent c-Src inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent downstream kinases protein kinase B/Akt() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent figitumumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent fulv() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ganitumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent gene-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent glucose() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent lambda monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent let-7a1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent let-7b-5p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent let-7b(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent let-7c(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent let-7g() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent mAb() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-100 inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-100(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-122(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-133(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-133b(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-139-5p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-139() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-140(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-141-3p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-141() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-143/145() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-152(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-153(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-181b(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-194 inhibitors() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-194() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-200 family miRNAs() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-200() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-214(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-217(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-223-3p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-223(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-29a-3p(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-30-5p(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-30a-5p mimics() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-30a-5p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-320() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-328(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-335(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-342-3p mimics(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-342-3p(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-375 inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-375(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-378() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-378a-3p(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-431(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-470() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-493() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-494(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-503(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-592() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-598() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-669b() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-675() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-681() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-7-5p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-99 family members() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-99() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-99a() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-99b-5p/203a-3p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-99b() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miRNA-323-5p(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miRNA-675() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent picropodphyllin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent region() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-494() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent rs2016347() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent si-IGF-1R#1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent si-IRS-2#1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent siIGF-1R() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Wilms' tumor protein-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Wilms' tumor-suppressor 1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Statins() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent 1muM OSI-906() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent 4F2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AZ12253801() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent BTG2(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent CDH1(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent EI-04() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent EM164() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Echistatin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent FOLFOX() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent GALNT2(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Ganitumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent HG() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1 ligand() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1R antibodies() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF1R inhibitor() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent c-SRC(mods: (phosphorylation)) has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGFBP3(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IgG1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent JB1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent JNK inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent JWH-015() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent KL(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent KM1468() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent LDK-378() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent LL-2003() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MM-141() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent OSI-906() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PQ401() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PQIP() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PSCs() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent PTPN1(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PTPalpha(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent SCH717454() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent SP2043() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent SST(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Suramin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent TAE226() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Wy14643() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent XMetD() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent XREF_FIG() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent anti-IGF1R monoclonal antibody IMC-A12() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta-AR() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta3 integrin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent bispecific antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent cixutumumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent echistatin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent epigalocatechin galate() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent mTOR-p70S6K() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-223(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-630() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent porphyran() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent receptor blocking antibody alphaIR-3() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent s7g1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent t10c12() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent ARRB1(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent CBLB(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent NEDD4(mods: (modification), muts: (None, None, None))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent 15-LO-1(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent 4T1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AKT inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent APS-3c() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AQUA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AR inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AT-II() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AT1R() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AVE1642() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AZ12253801() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Antigen() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent BMMNC() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent C-MYB() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent CBD-IGF-1() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent CDKN2A(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent CDR1as silencing() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent CS(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Crk II() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent DCN(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent DDR1(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent DPP4(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Delta40p53() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent ENTPD5(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent ESR1(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent EWS-FLI1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent FASN inhibitor() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent FER(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent FOXC1(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent GAS-DNA binding domain() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent GH1(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent GIPC-PDZ inhibitor() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent GRK2(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent HOXA9(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent HSP90 inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Hsp90 inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Hsp90 inhibitors() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IDH1R132H() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1R allele(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1R mRNA() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Hybrid-R() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IR/IGF-IR hybrid receptors() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent USSs gene() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent hybrid IR/IGF-IR receptors() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-532() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent p75NTR protein() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent C/EBPbeta-LIP() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IRS-1/2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Insulin receptor-beta() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent LUNAR1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PI3K/PTEN/Akt/mTOR() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent TR3-TV2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta1 integrin receptor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta1 integrin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent c-FOS() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ephrin B2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent glucose() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent hepatic gene() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent holo-IR() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent hsa-miR-99a() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent insulin receptor beta() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-100() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-152() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-503() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent phosphoSTAT3() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent sCLU() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent topo IIalpha() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Wilms' tumor-suppressor 1() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF2(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGFs() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IHC() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IRA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IRB() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Igf2-H19 locus() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent JLFC01() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent LIN28A(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent LL-2003() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Laminarin() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Man-6-P receptor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MiR-143() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent MiR-99a() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent NANOG(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent NEDD4(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent NYRF() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PAX3-FOXO1() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent PDGFRB(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent PTEN(mods: (modification), muts: (None, None, None))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PVT1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent PY-PE() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent RELA(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent RNAi() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent SIX1(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent SNX5(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent SNX6(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent SOD1(mods: (modification), muts: (G, 93, A))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent TP53(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent androgen() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent beta1 integrins() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent block IGF-IR() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent c-myb(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent cetuximab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent exogenous beta1 integrins() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent figitumumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent glucose(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent hIGF1R-specific siRNA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent let-7 family(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent let-7c(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ligands IGF-1 and -2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent lnc133b() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent lncRNA-ATB() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent metallothionein(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-100() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-122() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-133a precursor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-214() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-223 +/+  cultures() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-223() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-30a-5p() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-375 inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-378() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-424() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-497(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-503(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-7 inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-98() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent miR-99a() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent microRNA-194(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent pEABE-bleo IGF-1R() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent protein tyrosine kinase inhibitors() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent rIGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent rhIGF-I() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent rhPAPPA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent siIGFBP5() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent siYAP() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent 486/STOP() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent A-928605() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ABDP() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ACE inhibitors() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AG-538() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AG538() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AGE-BSA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AGM130() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AKT inhibitors() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ALK-TKI() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AMG-479() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AMG479() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AS oligonucleotide() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AS[S]ODN() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AUY922() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AVE1642() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AXL1717() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AZ12253801() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AZ3801() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AZD1480() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AdRhIGF1R-OK orAdRhIGF1R-OK() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Alu() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent BIIB4() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent BIIB5() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent BMS-665351() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent CD44v9 shRNA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent CD44v9 siRNA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent CD44v9() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent CO-1686() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent CP-751,871() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent CP751871() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent CR1023() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Cbl-b initiated receptor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Cf-PS() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Cis-3-[3-(4-methyl-piperazin-l-yl)-cyclobutyl]-1-(2-phenyl-quinolin-7-yl)-imidazo[1,5-a]pyrazin-8-ylamine() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Cixutumumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Cl-316243() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent CoCl 2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent CreERT2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent EM164() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ERBB receptor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent EWS-FLI1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Figitumumab (F)() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Figitumumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Figs() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent GHRP-2() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent GHR(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent GSK2110236A() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Ganitumab() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent H19-DMR() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent HDAC inhibitors() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent HG() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent HMJ-30() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent HRGbeta1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Herbymicin A() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Hippo() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent I-OMe-AG-538() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent I-OMe-AG538() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF ligands() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF receptor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF receptors() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF)-I() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1 ligand() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1 mimetic peptides() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1 receptor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1/2() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1R TKIs() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1R antibodies() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1R inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1R siRNA # 1() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1R siRNA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1R specific peptide aptamers() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-1R specific-shRNA() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-IR AS() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-IR TKIs() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-IR kinase inhibitors() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-Trap() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-binding protein() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF-binding proteins() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF1R ECD() has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent IGF1R-TKI() has no grounding.
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent YC-1(activity) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent 1B)-adrenergic receptors(activity) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent 4T1(activity) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AC-1 xenografts(activity) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AKTmTOR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent ALK inhibitors(activity) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent AS[S]ODNs(activity) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Ab alphaIR3(activity) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent Akt/mTOR/p70S6K(activity) has no grounding.
+WARNING: [2019-02-15 16:42:53] indra.assemblers.pybel.assembler - Agent BRAF inhibitor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Cre-lox recombination(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent EGFR inhibitor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent EGFR inhibitors(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent EGFR-IGF1R(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent ERKs1/2(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent EW-5(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent G0/G1(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Gbetagamma(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent HDAC inhibitors(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent HNSCC(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent HRGbeta1(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent HRR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent HSP70/90(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent HUVEC(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Herceptin(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Huh7(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF axis(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF binding protein(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF-1-triggered IGF-1R(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF-1R kinase(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF-I receptors(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF-IIR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF-IR inhibitor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF-IR siRNA(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF1Rbeta(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGFs(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent INF-gamma(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent INSR-A(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IR-A(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IR-B(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IR/IGF1R(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IR/IGF2(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IRS1/2(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MPNST(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Mvt1(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent NHEJ(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PG-WAT(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PI3K/AKT/mTOR/PKM2(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PI3K/AKT/mTOR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PI3K/Akt/mTOR/p70S6K signal pathway(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PI3K/Akt/mTOR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PI3K/mTOR/PKC(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PMSC(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Ras/Raf-1/MAPK family(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Ras/Raf-1/MAPK(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent SKOVP(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent SubG 1(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent TbetaRI kinase(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent XGFR*(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent ad-shIGF-1R(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent androgen receptors(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent beta-AR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent beta1-integrin(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent cixutumumab(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent figitumumab(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent gefinitib(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent glucose(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent let-7b(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent mTORC1 inhibitor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-122(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-140(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-141(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-181b(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-193b(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-223(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-503(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent oxLDL(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent pGIPZ-lentiviral-shRNA-IGF-1R(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent rat miR-100(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent receptor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent scavenger receptor IGF-IIR [(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent small interfering RNA(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent tIGF-I(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent type 2 diabetes(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent xenograft(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IgG1 monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent KL1() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent KL2() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF-1 receptor(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent humanized IGF-1R monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent it() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PI3K-AKT-mTOR(activity) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF1Ri() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF2BPs() has no grounding.
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF2R(mods: (modification))
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGFBP3(mods: (modification))
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGFBPs, des[1-3]IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IMC-A12() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent INSRB() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Ganitumab() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IR-M2() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IR-M3() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IRAIN() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IRS-1/2() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IgG 2  monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IgG1 antibody() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IgG1 monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IgG1 type monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IgG2 monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IgGs() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Illudin S() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Istiratumab() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent JB-1() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent JB1() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent JNK inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent JWH-015() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent KW-2450() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent L2-C() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent LDK-378() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent LDK() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent LL-2003() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent LL28() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MAB391() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MAB() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MGCD516() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MK-0646() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MK0646() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MM-141() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MPT0E028() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Mab 391() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MbetaCD() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MiR-143() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MiR-223() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MiR-497() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MiR-630() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MiRNA-323-5p() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MicroRNA-223() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent NT157() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent NT219() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent NVPAWD742() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Nutlin-3a() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent OSI-906() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent OSI-996() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Osmopump() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent OxLDL() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PCID:11476171() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PCID:3339() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PCID:4534() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PFT-alpha() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PQ401() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PQIP() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PTB-U-box() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PU-H71() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Picropdophyllin() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Proteasome inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent R-1507() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent RNAi() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent RSU1P2() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent RhIGFBP7() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Rl507() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent S-Klotho() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent SB216763() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent SKLB-178() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent SP2043() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent SSTN IGF1R-T() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent SSTN() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent SU5402() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent SecinH3() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Small molecule TKIs() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Spn4A() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent T-IGF1() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent TAE-684() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent TAE226() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent TAE684() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Tyrphostin AG-538() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent VCN-2() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Von Hippel-Lindau tumor suppressor() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent WP760() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent alpha-IR3() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent alphaIR-3 antibody() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent alphaIR3() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent analog P-3() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent anti-IGF inhibitors() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent anti-IGF-1R antibodies() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent anti-IGF-1R antibody() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent anti-IGF1R antibody() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent anti-IGF1R() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent beta-arr2() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent brigatinib() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent buformin() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent c-Src inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent cetuximab() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent chelator-CCND1 PNA-IGF1 peptide() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent chimaphilin() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent cixutumumab() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent cpd_P() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent cpd_W() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent dalotuzumab [() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent denbinobin() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent dual-kinase inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent figitumumab() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent ganitumab() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent glucose() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent h10H5() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent hIGF-1 blocking antibody() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent hUCS() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent hsa-miR-143() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent hsa-miR-503() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent inhibitor 4() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent istiratumab() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent laminarin() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent lentivirus-IGF-1R siRNA() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent let-7() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent let-7b() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent let-7d-5p() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent mAVE1642() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-100-5p() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-100() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-122() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-1271() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-133() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-133a() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-133b() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-140() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-143/145() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-150() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-182() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-194(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-223*() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-223() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-30a-5p() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-328() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-335() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-375() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-376c-3p() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-383() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-448() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-486() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-497() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-503() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-592() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-615-5p() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-630() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-675() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-7 inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-99 family members() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-99 family() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-99/100() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-99() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-99a() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miR-99b-5p() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent miRNA-323-5p() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent microRNA-675() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent mir-145() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent mir-376a() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent mir-376c() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent monoclonal IgG1 antibody() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent monoclonal antibody alpha-IR3() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent monoclonal antibody() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent mutated IGF-IR() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent oxLDL() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent p700() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent phosphoi-nositide 3-kinase() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent phosphoinositide 3-kinase() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent rat IL-1beta() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent selamectin() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent short hairpin RNA() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent siIGF-1R() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent siRNA() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent skeletal muscle() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent small interfering RNA() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent suramin() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent teprotumumab() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent tyrphostin() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent AG1295() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent AMD3100() has no grounding.
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent BHLHE22(mods: (modification))
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent CD146 neg() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Delta870-905 IGF-1 R() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent EGF-, IGF() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent EGF-IGF-LDP-AE (0.1 nmol/L() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Erk/MAPK1/2() has no grounding.
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent FER(mods: (modification))
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent FVIIa() has no grounding.
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent GPC3(mods: (modification))
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent GSK3 inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Ganitumab() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF-1 ligand() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF-1R inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF-1R kinase inhibitor() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF-1Rs() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF-I-, IGF-II-,() has no grounding.
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF1R(mods: (modification))
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Annexin(mods: (phosphorylation, A, 2)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Annexin(mods: (phosphorylation, Y, 23)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Annexin(mods: (phosphorylation, Y, 333)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Crk-II(mods: (phosphorylation, Y, 221)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent ERK1/2/AKT(mods: (phosphorylation)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF-1 [(mods: (phosphorylation)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF1 receptor(mods: (phosphorylation)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IRS-1/2(mods: (phosphorylation, Y)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PTPalpha(mods: (phosphorylation)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PyVmT(mods: (phosphorylation, Y)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent RAF-MEK-ERK(mods: (phosphorylation)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent RAS/RAF/MEK/ERK(mods: (phosphorylation)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Ras/Raf/mitogen-activated protein kinase(mods: (phosphorylation)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Src-homology-2-domains(mods: (phosphorylation, Y)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Y469/495(mods: (phosphorylation)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent extracellular signal-regulated kinase1/2(mods: (phosphorylation)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent janus family(mods: (phosphorylation)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent microtubule-associated protein kinase(mods: (phosphorylation)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent p-70s6kinase(mods: (phosphorylation)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent p-extracellular signal-regulated kinases(mods: (phosphorylation)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent p70S6Kinase(mods: (phosphorylation)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent phosphorylated MAP-kinases(mods: (phosphorylation)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IGF-1R's beta-subunit(mods: (phosphorylation, Y)) has no grounding.
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IGF2(mods: (modification))
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IHC() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent IRS1-4() has no grounding.
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent IRS1(mods: (modification), muts: (None, None, None))
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent JB3() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent KZ-41() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent L2-C() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent LDK-378() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent LR3-IGF-I() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Long-R3-IGF-I() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MAB292() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MAB391() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MK-801() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent MKK3/6() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent NPM-ALK() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent OVA66() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Ob-Rb() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PCID:2284() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PCID:7009579() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent RKS262() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent SC69000() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent SLalpha() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent SLbeta() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent SeP() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent TK inhibitor() has no grounding.
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent TM4SF4(mods: (modification))
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent UCHL3(mods: (modification))
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Widespread IGF-IR() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent beta-AR() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent beta3 integrin() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent c-Src PTK() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent echistatin() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent exogenous IGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent exogenous monomeric Abeta 1-42() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent glucose() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent hIGF-1-() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent insulin receptors() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent integrin receptor() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent nonreceptor kinases() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent p70s6K() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent rhIGF-1() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent rhIGF-I() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent serine/threonine kinases() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent serine/threonine kinases() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent siROR1() has no grounding.
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Skipping modification of type sumoylation on agent IGF1R(mods: (sumoylation))
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Unhandled statement: Translocation(IGF1R(), None, cell surface)
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Unhandled statement: Translocation(IGF1R(), None, lysosome)
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Unhandled statement: Translocation(IGF1R(), None, plasma membrane)
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Unhandled statement: Translocation(IGF1R(), None, recycling endosome)
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Unhandled statement: Translocation(IGF1R(), plasma membrane, cytosol)
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Unhandled statement: Translocation(IGF1R(), plasma membrane, nucleus)
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent ARR2(mods: (modification))
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent Crk II() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent E3 ligase() has no grounding.
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent GPC3(mods: (modification))
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent GRB10(mods: (modification))
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent MDM2(mods: (modification))
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent PTB-U-box() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent SOD1-G93A(mods: (modification)) has no grounding.
+INFO: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Skipping modification of type modification on agent SYVN1(mods: (modification))
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent U-box() has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent beta-arr2(mods: (modification)) has no grounding.
+WARNING: [2019-02-15 16:42:54] indra.assemblers.pybel.assembler - Agent beta-arrestins() has no grounding.
