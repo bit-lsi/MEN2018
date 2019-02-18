@@ -1,5 +1,5 @@
-IGF1R: Mohammed
-IRS1:
-MAOB:
+IGF1R: Mohammad
+IRS1: Mahmud
+MAOB: Farid
 TREM2:Alfonso Araya
 7-keto-DHEA: Lingling and Rana
