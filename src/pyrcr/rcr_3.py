@@ -10,6 +10,9 @@ from pybel import BELGraph
 from pybel.dsl import gene, protein, rna
 from pybel.manager import Manager
 from pybel.testing.utils import n
+import pandas as pd
+import itertools
+import networkx as nx
 
 HGNC = 'HGNC'
 
@@ -182,9 +185,6 @@ example_3 = make_graph_3()
 example_4 = make_graph_4()
 
 
-import pandas as pd
-import itertools
-import networkx as nx
 
 def mapvalue(file, graph):
     df = pd.read_csv(file)
