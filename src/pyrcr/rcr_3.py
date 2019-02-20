@@ -19,12 +19,12 @@ HGNC = 'HGNC'
 class ManagerMixin(unittest.TestCase):
     def setUp(self):
         super(ManagerMixin, self).setUp()
-        
+
         self.db_fd, self.db_file = tempfile.mkstemp()
-        
+
         self.connection = 'sqlite:///' + self.db_file
         self.manager = Manager(connection=self.connection)
-    
+
     def tearDown(self):
         os.close(self.db_fd)
         os.unlink(self.db_file)
@@ -50,36 +50,36 @@ def make_graph_1() -> BELGraph:
                      authors='LSI',
                      contact='lsi@uni-bonn.de',
                      )
-        
-                     graph.add_node_from_data(protein_a)
-                     graph.add_node_from_data(protein_b)
-                     graph.add_node_from_data(gene_c)
-                     graph.add_node_from_data(rna_d)
-                     
-                     graph.add_increases(
-                                         protein_a,
-                                         protein_b,
-                                         citation='1',
-                                         evidence='Evidence 1',
-                                         annotations={'Annotation': 'foo'}
-                                         )
-                     
-                     graph.add_increases(
-                                         rna_d,
-                                         protein_a,
-                                         citation='2',
-                                         evidence='Evidence 2',
-                                         annotations={'Annotation': 'foo'}
-                                         )
-                     
-                     graph.add_decreases(
-                                         gene_c,
-                                         protein_b,
-                                         citation='3',
-                                         evidence='Evidence 3',
-                                         annotations={'Annotation': 'foo'}
-                                         )
-                     
+
+    graph.add_node_from_data(protein_a)
+    graph.add_node_from_data(protein_b)
+    graph.add_node_from_data(gene_c)
+    graph.add_node_from_data(rna_d)
+
+    graph.add_increases(
+                     protein_a,
+                     protein_b,
+                     citation='1',
+                     evidence='Evidence 1',
+                     annotations={'Annotation': 'foo'}
+                     )
+
+    graph.add_increases(
+                     rna_d,
+                     protein_a,
+                     citation='2',
+                     evidence='Evidence 2',
+                     annotations={'Annotation': 'foo'}
+                     )
+
+    graph.add_decreases(
+                     gene_c,
+                     protein_b,
+                     citation='3',
+                     evidence='Evidence 3',
+                     annotations={'Annotation': 'foo'}
+                     )
+
     return graph
 
 
@@ -92,27 +92,27 @@ def make_graph_2() -> BELGraph:
                      authors='LSI',
                      contact='lsi@uni-bonn.de',
                      )
-        
-                     graph.add_node_from_data(gene_f)
-                     graph.add_node_from_data(protein_e)
-                     graph.add_node_from_data(protein_b)
-                     
-                     graph.add_increases(
-                                         protein_e,
-                                         protein_b,
-                                         citation='1',
-                                         evidence='Evidence 1',
-                                         annotations={'Annotation': 'foo'},
-                                         )
-                     
-                     graph.add_increases(
-                                         gene_f,
-                                         protein_e,
-                                         citation='2',
-                                         evidence='Evidence 2',
-                                         annotations={'Annotation': 'foo2'}
-                                         )
-                     
+
+    graph.add_node_from_data(gene_f)
+    graph.add_node_from_data(protein_e)
+    graph.add_node_from_data(protein_b)
+
+    graph.add_increases(
+                     protein_e,
+                     protein_b,
+                     citation='1',
+                     evidence='Evidence 1',
+                     annotations={'Annotation': 'foo'},
+                     )
+
+    graph.add_increases(
+                     gene_f,
+                     protein_e,
+                     citation='2',
+                     evidence='Evidence 2',
+                     annotations={'Annotation': 'foo2'}
+                     )
+
     return graph
 
 
@@ -130,14 +130,14 @@ def make_graph_3() -> BELGraph:
                      authors='LSI',
                      contact='lsi@uni-bonn.de',
                      )
-                     
-                     graph.add_increases(protein_a, protein_b, n(), n())
-                     graph.add_decreases(protein_b, gene_c, n(), n())
-                     graph.add_decreases(rna_d, gene_f, n(), n())
-                     graph.add_increases(protein_e, gene_f, n(), n())
-                     graph.add_increases(gene_f, gene_c, n(), n())
-                     graph.add_association(gene_c, protein_g, n(), n())
-                     
+
+    graph.add_increases(protein_a, protein_b, n(), n())
+    graph.add_decreases(protein_b, gene_c, n(), n())
+    graph.add_decreases(rna_d, gene_f, n(), n())
+    graph.add_increases(protein_e, gene_f, n(), n())
+    graph.add_increases(gene_f, gene_c, n(), n())
+    graph.add_association(gene_c, protein_g, n(), n())
+
     return graph
 
 
@@ -161,18 +161,18 @@ def make_graph_4() -> BELGraph:
                      authors='LSI',
                      contact='lsi@uni-bonn.de',
                      )
-                     
-                     graph.add_increases(protein_a, protein_b, n(), n())
-                     graph.add_decreases(protein_b, gene_c, n(), n())
-                     graph.add_decreases(protein_b, rna_d, n(), n())
-                     graph.add_decreases(protein_b, protein_e, n(), n())
-                     graph.add_decreases(protein_b, gene_f, n(), n())
-                     graph.add_increases(protein_b, protein_g, n(), n())
-                     graph.add_decreases(protein_b, protein_h, n(), n())
-                     graph.add_increases(protein_b, protein_h, n(), n())
-                     graph.add_increases(protein_b, protein_i, n(), n())
-                     graph.add_association(protein_b, protein_j, n(), n())
-                     
+
+    graph.add_increases(protein_a, protein_b, n(), n())
+    graph.add_decreases(protein_b, gene_c, n(), n())
+    graph.add_decreases(protein_b, rna_d, n(), n())
+    graph.add_decreases(protein_b, protein_e, n(), n())
+    graph.add_decreases(protein_b, gene_f, n(), n())
+    graph.add_increases(protein_b, protein_g, n(), n())
+    graph.add_decreases(protein_b, protein_h, n(), n())
+    graph.add_increases(protein_b, protein_h, n(), n())
+    graph.add_increases(protein_b, protein_i, n(), n())
+    graph.add_association(protein_b, protein_j, n(), n())
+
     return graph
 
 
@@ -193,7 +193,7 @@ def mapvalue(file, graph):
     value = list(df['logFC'])
     for i in range(len(key)):
         gene_expression_dict[key[i]] = value[i]
-    
+
     attrs2 = dict()
     for i in graph.nodes():
         if i.name in gene_expression_dict:
@@ -211,13 +211,13 @@ def graph_test(graph):
     edgevaluedict =dict()
     edgevalues = nx.get_edge_attributes(graph,'relation')
     mapdict={'increases':1,'decreases':-1,'association':0}
-    
+
     for n,e  in edgevalues.items():
         nodes=n[:2]
         edgevalue=mapdict[e]
-        
+
         edgevaluedict[nodes]= edgevalue
-    
+
     resultdict = dict()
     for n in listnodes:
         resultdict[n] = []
@@ -225,7 +225,7 @@ def graph_test(graph):
     for i in allpairs:
         if not nx.has_path(graph,i[0],i[1]):
             continue
-        
+
         path = nx.shortest_path(graph,i[0],i[1])
         edgelist =[]
         firstvalue = graph.node[path[0]]['value']
@@ -239,12 +239,12 @@ def graph_test(graph):
         for r in edgelist:
             checkvalue = checkvalue*r
         if checkvalue < 0:
-            
+
             resultdict[i[0]].append((path,'false'))
         elif checkvalue > 0:
             resultdict[i[0]].append((path,'true'))
 
-return resultdict
+    return resultdict
 
 
 def search_node(graph, interesting_node):
