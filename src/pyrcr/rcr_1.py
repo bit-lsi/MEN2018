@@ -9,84 +9,8 @@ Created on Tue Feb 19 13:17:18 2019
 """
 # -*- coding: utf-8 -*-
 
-import os
-import tempfile
-import unittest
 import numpy as np
-from pybel import BELGraph
-from pybel.dsl import gene, protein, rna
-from pybel.manager import Manager
-from pybel.testing.utils import n
-import pandas as pd
 import networkx as nx
-
-HGNC = 'HGNC'
-
-protein_a = protein(namespace=HGNC, name='a')
-protein_b = protein(namespace=HGNC, name='b')
-gene_c = gene(namespace=HGNC, name='c')
-rna_d = rna(namespace=HGNC, name='d')
-protein_e = protein(namespace=HGNC, name='e')
-gene_f = gene(namespace=HGNC, name='f')
-protein_g = protein(namespace=HGNC, name='g')
-protein_h = protein(namespace=HGNC, name='h')
-protein_i = protein(namespace=HGNC, name='i')
-protein_j = protein(namespace=HGNC, name='j')
-
-
-def __make_graph_1() -> BELGraph:
-    graph = BELGraph(
-        name='Lab course example',
-        version='1.1.0',
-        description='',
-        authors='LSI',
-        contact='lsi@uni-bonn.de',
-    )
-
-    graph.add_node_from_data(protein_a)
-    graph.add_node_from_data(protein_b)
-    graph.add_node_from_data(gene_c)
-    graph.add_node_from_data(rna_d)
-
-    graph.add_increases(
-        protein_a,
-        protein_b,
-        citation='1',
-        evidence='Evidence 1',
-        annotations={'Annotation': 'foo'}
-    )
-
-    graph.add_increases(
-        rna_d,
-        protein_a,
-        citation='2',
-        evidence='Evidence 2',
-        annotations={'Annotation': 'foo'}
-    )
-
-    graph.add_decreases(
-        gene_c,
-        protein_b,
-        citation='3',
-        evidence='Evidence 3',
-        annotations={'Annotation': 'foo'}
-    )
-
-    return graph
-
-def make_graph(data_file):
-    graph_1 = __make_graph_1()
-    vals = pd.read_csv(data_file,',')
-    vals.columns = ['val','gene']
-    vals = {k:v for k,v in zip(vals['gene'].values,vals['val'].values)}
-    
-    nodes = {}
-    
-    for i in graph_1.nodes():
-        nodes[i] = vals[i.name]
-    
-    nx.set_node_attributes(graph_1,nodes,name='data')
-    return graph_1
 #chnge to dict
 relations = {
     'INCREASES': +1,
@@ -152,8 +76,3 @@ def is_correct(graph,node_from,node_to):
         edge_data = list(graph.get_edge_data(path[i],path[i+1]).values())[0]['relation'].upper()
         edg_val *= relations[edge_data] if edge_data in relations else 0
     return np.sign(edg_val*nodef_val)==np.sign(nodet_val)
-
-
-graph_1 = make_graph('data/test.csv')
-print(is_correct(graph_1,protein_a,protein_b))
-print(get_all(graph_1))
