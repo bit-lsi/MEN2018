@@ -1,0 +1,12 @@
+graft src
+graft tests
+
+include config/config.ini
+
+global-exclude *.py[cod] __pycache__ *.so *.dylib .DS_Store *.gpickle
+
+exclude .bumpversion.cfg
+exclude data
+exclude curation
+
+include *.rst *.txt *.yml LICENSE *.ini .flake8
