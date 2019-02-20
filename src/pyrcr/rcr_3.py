@@ -254,3 +254,4 @@ def search_node(graph, interesting_node):
         wholedict = graph_test(graph)
         return wholedict[interesting_node]
 
+search_node(graph, interesting_node)
