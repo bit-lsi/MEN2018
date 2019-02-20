@@ -12,10 +12,10 @@ log = logging.getLogger(__name__)
 log.setLevel(10)
 
 
-#from constants import make_graph_2, protein_e, protein_b, gene_f
+from .constants import make_graph_2, protein_e, protein_b, gene_f
 
 
-#from pyrcr.rcr_3 import search_node
+from pyrcr.rcr_3 import search_node
 
 class TestRCR(unittest.TestCase):
     """Test RCR Algoritihm."""
@@ -24,10 +24,10 @@ class TestRCR(unittest.TestCase):
         """Test rcr."""
         the_path = os.getcwd()
         graph_1 = make_graph_1()
-        #vals = the_path+'/data/test.csv'
-        result1 = search_node(example_2,gene_f, 'test.csv')
-        result2 = search_node(example_1,protein_a, 'test.csv')
-        result3 = search_node(example_3,protein_a, 'test.csv')
+        vals = the_path+'/data/test.csv'
+        result1 = search_node(example_2,gene_f, vals)
+        result2 = search_node(example_1,protein_a, vals)
+        result3 = search_node(example_3,protein_a, vals)
         
         self.assertEqual(result1[0][1], 'true')
         self.assertEqual(result2[0][1], 'true')
