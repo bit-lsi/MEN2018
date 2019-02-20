@@ -86,7 +86,7 @@ def values_from_excel(filepath):
         next(infile)
         for line in infile:
             vals=line.split(',')
-            dict01[vals[1].rstrip()] = float(vals[0].rstrip())
+            dict01[vals[3].rstrip()] = float(vals[2].rstrip())
     return dict01
 
 def values_to_nodes(exp_val, graph):
