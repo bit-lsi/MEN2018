@@ -32,9 +32,5 @@ class TestRCR(unittest.TestCase):
         self.assertEqual(result1[0][1], 'true')
         self.assertEqual(result2[0][1], 'true')
         self.assertEqual(result3[0][1], 'true')
-        print(result1[0][1])
-        print(result2[0][1])
-        print(result3[0][1])
 
-a = TestRCR()
-print(a.test_rcr_3())
+
