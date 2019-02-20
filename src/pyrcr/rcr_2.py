@@ -52,28 +52,27 @@ def path_validation(graph, excel, source_node, target_node):
     exp_val= values_from_excel(excel)
     nodes_dict=values_to_nodes(exp_val,graph)
     nx.set_node_attributes(graph, nodes_dict)
-    for source_node in graph.nodes():
-        s_node_val=graph.node[source_node]['value']
-        if source_node == target_node:
-            continue
-        if not nx.has_path(graph, source_node, target_node):
-            continue
-        path= nx.shortest_path(graph, source_node, target_node)
-        i=0
-        nodes_val=1
-        edges_val=1
-        for n in path:
-            while i<len(path)-1:
-                nodes_val*=graph.node[path[i]]['value']
-                edges_val*=edge_relation(graph, path[i], path[i+1])
-                i+=1
-        nodes_val*=graph.node[path[i]]['value']
-        if edges_val==0:
-            continue
-        if nodes_val >0 and edges_val >0 or nodes_val <0 and edges_val <0:
-            return True
-        else :
-            return False
+    s_node_val=graph.node[source_node]['value']
+    if source_node == target_node:
+        return "No path between same nodes"
+    if not nx.has_path(graph, source_node, target_node):
+        return "path doesn't exist"
+    path= nx.shortest_path(graph, source_node, target_node)
+    i=0
+    nodes_val=1
+    edges_val=1
+    for n in path:
+        while i<len(path)-1:
+            nodes_val*=graph.node[path[i]]['value']
+            edges_val*=edge_relation(graph, path[i], path[i+1])
+            i+=1
+    nodes_val*=graph.node[path[i]]['value']
+    if edges_val==0:
+        return "path cannot be evaluated"
+    if nodes_val >0 and edges_val >0 or nodes_val <0 and edges_val <0:
+        return True
+    else :
+        return False
 
 
 
