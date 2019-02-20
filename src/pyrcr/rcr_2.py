@@ -57,7 +57,7 @@ def path_validation(graph, excel, source_node, target_node):
         if source_node == target_node:
             continue
         if not nx.has_path(graph, source_node, target_node):
-            return 'path doesn't exist'
+            return "path doesn't exist"
         path= nx.shortest_path(graph, source_node, target_node)
         i=0
         nodes_val=1
