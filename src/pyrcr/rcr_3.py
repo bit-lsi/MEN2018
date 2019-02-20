@@ -247,11 +247,11 @@ def graph_test(graph):
     return resultdict
 
 
-def search_node(graph, interesting_node):
+def search_node (graph, interesting_node, file_path):
     if interesting_node not in graph :
         print ('The node is not in the graph, please change anoher node')
     else:
-        wholedict = graph_test(graph)
+        wholedict = graph_test(graph, file_path)
         return wholedict[interesting_node]
 
-search_node(graph, interesting_node)
+
