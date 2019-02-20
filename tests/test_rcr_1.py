@@ -34,7 +34,13 @@ class TestRCR(unittest.TestCase):
     
         nx.set_node_attributes(graph_1,nodes,name='data')
 
-        result = is_correct(graph_1, rna_d,protein_b)
+        result1 = is_correct(graph_1, protein_a,protein_b)
+        result2 = is_correct(graph_1, gene_c,protein_b)
+        result3 = is_correct(graph_1, rna_d,protein_a)
+        result4 = is_correct(graph_1, rna_d,protein_b)
 
-        self.assertEqual(result, False)
+        self.assertEqual(result1, True)
+        self.assertEqual(result2, False)
+        self.assertEqual(result3, False)
+        self.assertEqual(result4, False)
  
