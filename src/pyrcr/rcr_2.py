@@ -50,13 +50,13 @@ def path_validation(graph, excel, source_node, target_node):
     with predicted values (edge relations). It returns True if they match and False if they don't
     """
     exp_val= values_from_excel(excel)
+    if source_node == target_node:
+        return "No path between same nodes"
     if source_node.name not in exp_val.keys():
         return "Experimental data missing in path"
     nodes_dict=values_to_nodes(exp_val,graph)
     nx.set_node_attributes(graph, nodes_dict)
     s_node_val=graph.node[source_node]['value']
-    if source_node == target_node:
-        return "No path between same nodes"
     if not nx.has_path(graph, source_node, target_node):
         return "path doesn't exist"
     path= nx.shortest_path(graph, source_node, target_node)
