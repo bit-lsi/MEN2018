@@ -2,7 +2,7 @@
 
 """PyRCR An implementation of RCR by LSI students."""
 
-__version__ = '0.0.0-dev'
+__version__ = '0.0.1-dev'
 
 __title__ = 'pyrcr'
 __description__ = "An implementation of RCR by LSI students"

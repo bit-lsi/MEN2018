@@ -10,6 +10,8 @@ log.setLevel(10)
 
 from .constants import make_graph_1, gene_c
 
+from pyrcr.rcr_1 import is_correct
+
 class TestRCR(unittest.TestCase):
     """Test RCR Algoritihm."""
 

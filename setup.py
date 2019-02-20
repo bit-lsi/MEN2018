@@ -26,6 +26,7 @@ CLASSIFIERS = [
 INSTALL_REQUIRES = [
     'networkx',
     'pybel',
+    'pandas'
 ]
 
 ENTRY_POINTS = {
