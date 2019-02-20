@@ -77,14 +77,13 @@ def path_validation(graph, excel, source_node, target_node):
 
 
 
-def values_from_excel(filename):
+def values_from_excel(filepath):
     """
     This method gets a csv file with entities and their experiemental values
     and returns the values into a dictionary
     """
-    dir_path = os.path.dirname(os.path.realpath(filename))
     dict01={}
-    with open(os.path.join(dir_path, filename), 'r') as infile:
+    with open(filepath, 'r') as infile:
         next(infile)
         for line in infile:
             vals=line.split(',')
