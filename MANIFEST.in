@@ -8,5 +8,6 @@ global-exclude *.py[cod] __pycache__ *.so *.dylib .DS_Store *.gpickle
 exclude .bumpversion.cfg
 exclude data
 exclude curation
+exclude notebooks
 
 include *.rst *.txt *.yml LICENSE *.ini .flake8
