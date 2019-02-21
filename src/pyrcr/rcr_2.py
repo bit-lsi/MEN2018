@@ -58,6 +58,8 @@ def path_validation(graph, excel, source_node, target_node):
     nx.set_node_attributes(graph, nodes_dict)
     if source_node not in nodes_dict:
         return "Experimental data missing in path"
+    if target_node not in nodes_dict:
+        return "Experimental data missing in path"
     s_node_val=graph.node[source_node]['value']
     path= nx.shortest_path(graph, source_node, target_node)
     i=0
