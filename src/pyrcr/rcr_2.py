@@ -53,7 +53,6 @@ def path_validation(graph, nodes_dict, source_node, target_node):
         return "No path between same nodes"
     if not nx.has_path(graph, source_node, target_node):
         return "path doesn't exist"
-    nx.set_node_attributes(graph, nodes_dict)
     if source_node not in nodes_dict:
         return "Experimental data missing in path"
     if target_node not in nodes_dict:
