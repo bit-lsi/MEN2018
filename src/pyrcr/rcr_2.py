@@ -120,19 +120,20 @@ def get_paths_graphs(graph01, graph02, nodes_dict, boolean):
         graph02_nodes.append(node)
     countTrue=0
     countFalse=0
-    dict_paths={}
+    dict_paths_true=[]
+    dict_paths_false=[]
     for i in range(len(graph01_nodes)):
         for j in graph02_nodes:
             val=path_validation(graph02,nodes_dict , graph01_nodes[i], j)
             if val==True:
-                dict_paths[nx.shortest_path(graph02, graph01_nodes[i],j)]=val
+                dict_paths_true.append(nx.shortest_path(graph02, graph01_nodes[i],j))
                 countTrue+=1
             elif val==False:
-                dict_paths[nx.shortest_path(graph02, graph01_nodes[i],j)]=val
+                dict_paths_false.append(nx.shortest_path(graph02, graph01_nodes[i],j))
                 countFalse+=1
         i+=1
     print("P-value:" +str(stats.binom_test([countTrue, countFalse], alternative='greater')))
     if boolean==True:
-        return dict_paths
+        return dict_paths_true, dict_paths_false    
     else:
         return "True = "+str(countTrue)+"\nFalse= "+str(countFalse)
