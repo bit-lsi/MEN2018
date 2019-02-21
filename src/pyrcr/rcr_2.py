@@ -111,7 +111,7 @@ def edge_relation(graph, source_node, target_node):
     for iden, edge_d in graph[source_node][target_node].items():
         return relations[edge_d['relation']]
     
-def get_paths_graphs(graph01, graph02, boolean):
+def get_paths_graphs(graph01, graph02, nodes_dict, boolean):
     graph01_nodes=[]
     graph02_nodes=[]
     for node in graph01.nodes():
