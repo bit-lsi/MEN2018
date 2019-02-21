@@ -16,6 +16,7 @@ import pandas as pd
 import csv
 
 from pybel.constants import *
+from pybel.dsl.node_classes import CentralDogma
 
 relations = {
     INCREASES: 1,
@@ -98,6 +99,8 @@ def values_to_nodes(exp_val, graph):
     dict02={}
     for key, val in exp_val.items():
         for i, data in graph.nodes(data=True):
+            if not isinstance(CentralDogma, i):
+                continue
             if i.name == key:
                 dict02[i]={'value':val}
     return dict02
