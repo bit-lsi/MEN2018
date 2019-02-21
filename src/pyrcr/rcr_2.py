@@ -44,7 +44,7 @@ relations = {
 }
 
 
-def path_validation(graph, excel, source_node, target_node):
+def path_validation(graph, nodes_dict, source_node, target_node):
     """
     this method gets the shortest path between two nodes and compares the experimental values (node attribute)
     with predicted values (edge relations). It returns True if they match and False if they don't
@@ -53,8 +53,6 @@ def path_validation(graph, excel, source_node, target_node):
         return "No path between same nodes"
     if not nx.has_path(graph, source_node, target_node):
         return "path doesn't exist"
-    exp_val= values_from_excel(excel)
-    nodes_dict=values_to_nodes(exp_val,graph)
     nx.set_node_attributes(graph, nodes_dict)
     if source_node not in nodes_dict:
         return "Experimental data missing in path"
