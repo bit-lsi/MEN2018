@@ -129,7 +129,7 @@ def get_paths_graphs(graph01, graph02, nodes_dict, boolean):
                 dict_paths_true[tuple((nx.shortest_path(graph02, graph01_nodes[i],j)))] = val
                 countTrue+=1
             else:
-                dict_paths_false[tuple(x) for x in tuple((nx.shortest_path(graph02, graph01_nodes[i],j)))] = val
+                dict_paths_false[tuple(x) for x in (tuple((nx.shortest_path(graph02, graph01_nodes[i],j))))] = val
                 countFalse+=1
         i+=1
     print("P-value:" +str(stats.binom_test([countTrue, countFalse], alternative='greater')))
