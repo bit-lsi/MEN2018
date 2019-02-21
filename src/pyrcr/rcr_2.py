@@ -13,6 +13,7 @@ from pybel.testing.utils import n
 from pybel_jupyter import to_jupyter
 import networkx as nx
 import pandas as pd
+from scipy import stats
 import csv
 
 from pybel.constants import *
