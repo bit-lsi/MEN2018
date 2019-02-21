@@ -73,10 +73,8 @@ def path_validation(graph, nodes_dict, source_node, target_node):
     if edges_val==0:
         return "path cannot be evaluated"
     if nodes_val >0 and edges_val >0 or nodes_val <0 and edges_val <0:
-        print(path)
         return True
     else :
-        print(path)
         return False
 
 
