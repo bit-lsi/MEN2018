@@ -112,6 +112,11 @@ def edge_relation(graph, source_node, target_node):
         return relations[edge_d['relation']]
     
 def get_paths_graphs(graph01, graph02, nodes_dict, boolean):
+    """
+    This function can be used to find paths between two graphs
+    if boolean = True, the function will return the paths found and their validation
+    if boolean = False, the function will just return the number of True and False paths
+    """
     graph01_nodes=[]
     graph02_nodes=[]
     for node in graph01.nodes():
