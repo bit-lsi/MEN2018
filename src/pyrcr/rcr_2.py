@@ -126,10 +126,10 @@ def get_paths_graphs(graph01, graph02, nodes_dict, boolean):
         for j in graph02_nodes:
             val=path_validation(graph02,nodes_dict , graph01_nodes[i], j)
             if val is True:
-                dict_paths_true[((nx.shortest_path(graph02, graph01_nodes[i],j)))] = val
+                dict_paths_true[tuple((nx.shortest_path(graph02, graph01_nodes[i],j)))] = val
                 countTrue+=1
             elif val is False:
-                dict_paths_false[((nx.shortest_path(graph02, graph01_nodes[i],j)))] = val
+                dict_paths_false[tuple((nx.shortest_path(graph02, graph01_nodes[i],j)))] = val
                 countFalse+=1
         i+=1
     print("P-value:" +str(stats.binom_test([countTrue, countFalse], alternative='greater')))
