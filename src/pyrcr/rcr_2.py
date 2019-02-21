@@ -128,7 +128,7 @@ def get_paths_graphs(graph01, graph02, nodes_dict, boolean):
             if val is True:
                 dict_paths_true[tuple((nx.shortest_path(graph02, graph01_nodes[i],j)))] = val
                 countTrue+=1
-            else:
+            elif val is False:
                 dict_paths_false[tuple((nx.shortest_path(graph02, graph01_nodes[i],j)))] = val
                 countFalse+=1
         i+=1
