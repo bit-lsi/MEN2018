@@ -125,10 +125,10 @@ def get_paths_graphs(graph01, graph02, nodes_dict, boolean):
     for i in range(len(graph01_nodes)):
         for j in graph02_nodes:
             val=path_validation(graph02,nodes_dict , graph01_nodes[i], j)
-            if val==True:
+            if val is True:
                 dict_paths_true[tuple((nx.shortest_path(graph02, graph01_nodes[i],j)))] = val
                 countTrue+=1
-            elif val==False:
+            elif val is False:
                 dict_paths_false[tuple((nx.shortest_path(graph02, graph01_nodes[i],j)))] = val
                 countFalse+=1
         i+=1
