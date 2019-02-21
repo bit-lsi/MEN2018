@@ -40,8 +40,12 @@ relations = {
 
 def get_all(graph):
     for node_f in graph.nodes(data=True):
+        if not 'data' in node_f[1]:
+            continue
         nodef_val = node_f[1]['data']
         for node_t in graph.nodes(data=True):
+            if not 'data' in node_f[1]:
+                continue
             nodet_val = node_t[1]['data']
             if not nx.has_path(graph,node_f[0],node_t[0]):
                 continue
@@ -66,7 +70,12 @@ def is_correct(graph,node_from,node_to):
     
     # Get dara
     data = nx.get_node_attributes(graph,'data')
+    if not node_from in data:
+        return
     nodef_val = data[node_from]
+    
+    if not node_to in data:
+        return
     nodet_val = data[node_to]
     
     edg_val=1
