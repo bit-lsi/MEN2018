@@ -46,7 +46,8 @@ relations = {
 
 def path_validation(graph, nodes_dict, source_node, target_node):
     """
-    this method gets the shortest path between two nodes and compares the experimental values (node attribute)
+    this method takes a dict for experimental data for nodes and adds them as attributes in the graph
+    then it gets the shortest path between two nodes and compares the experimental values (node attribute)
     with predicted values (edge relations). It returns True if they match and False if they don't
     """
     if source_node == target_node:
