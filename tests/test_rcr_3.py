@@ -12,7 +12,7 @@ log = logging.getLogger(__name__)
 log.setLevel(10)
 
 
-from pyrcr.rcr_3 import search_node, example_1, example_2, example_3, gene_f, protein_a
+from src.pyrcr.rcr_3 import search_node, example_1, example_2, example_3, gene_f, protein_a
 
 
 class TestRCR(unittest.TestCase):
@@ -29,5 +29,3 @@ class TestRCR(unittest.TestCase):
         self.assertEqual(result1[0][1], 'true')
         self.assertEqual(result2[0][1], 'true')
         self.assertEqual(result3[0][1], 'true')
-
-
