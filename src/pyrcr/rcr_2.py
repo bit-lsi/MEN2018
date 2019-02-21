@@ -117,7 +117,7 @@ def get_paths_graphs(graph01, graph02, boolean):
     for node in graph01.nodes():
         graph01_nodes.append(node)
     for node in graph02.nodes():
-        graph01_nodes.append(node)
+        graph02_nodes.append(node)
     countTrue=0
     countFalse=0
     dict_paths={}
@@ -135,4 +135,4 @@ def get_paths_graphs(graph01, graph02, boolean):
     if boolean==True:
         return dict_paths
     else:
-        return "True = "+countTrue+"\nFalse= "+countFalse
+        return "True = "+str(countTrue)+"\nFalse= "+str(countFalse)
