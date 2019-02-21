@@ -99,7 +99,7 @@ def values_to_nodes(exp_val, graph):
     dict02={}
     for key, val in exp_val.items():
         for i, data in graph.nodes(data=True):
-            if not isinstance(CentralDogma, i):
+            if not isinstance(i, CentralDogma):
                 continue
             if i.name == key:
                 dict02[i]={'value':val}
