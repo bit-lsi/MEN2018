@@ -136,4 +136,4 @@ def get_paths_graphs(graph01, graph02, nodes_dict, boolean):
     if boolean==True:
         return dict_paths_true, dict_paths_false    
     else:
-        return "True = "+str(countTrue)+"\nFalse= "+str(countFalse)
+        return "True = "+str(countTrue)+", False= "+str(countFalse)
