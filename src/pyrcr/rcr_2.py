@@ -67,12 +67,9 @@ def path_validation(graph, nodes_dict, source_node, target_node):
     edges_val=1
     for n in path:
         while i<len(path)-1:
-            if path[i] not in nodes_dict:
-                return "Experimental data missing in path"
-            nodes_val*=graph.node[path[i]]['value']
             edges_val*=edge_relation(graph, path[i], path[i+1])
             i+=1
-    nodes_val*=graph.node[path[i]]['value']
+    nodes_val=graph.node[target_node]['value']*s_node_val
     if edges_val==0:
         return "path cannot be evaluated"
     if nodes_val >0 and edges_val >0 or nodes_val <0 and edges_val <0:
