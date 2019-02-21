@@ -74,7 +74,7 @@ def path_validation(graph, nodes_dict, source_node, target_node):
     if edges_val==0:
         return "path cannot be evaluated"
     if nodes_val >0 and edges_val >0 or nodes_val <0 and edges_val <0:
-        return True
+        return True 
     else :
         return False
 
@@ -120,16 +120,16 @@ def get_paths_graphs(graph01, graph02, nodes_dict, boolean):
         graph02_nodes.append(node)
     countTrue=0
     countFalse=0
-    dict_paths_true=[]
-    dict_paths_false=[]
+    dict_paths_true={}
+    dict_paths_false={}
     for i in range(len(graph01_nodes)):
         for j in graph02_nodes:
             val=path_validation(graph02,nodes_dict , graph01_nodes[i], j)
-            if val==True:
-                dict_paths_true.append(nx.shortest_path(graph02, graph01_nodes[i],j))
+            if val is True:
+                dict_paths_true[tuple((nx.shortest_path(graph02, graph01_nodes[i],j)))] = val
                 countTrue+=1
-            elif val==False:
-                dict_paths_false.append(nx.shortest_path(graph02, graph01_nodes[i],j))
+            elif val is False:
+                dict_paths_false[tuple((nx.shortest_path(graph02, graph01_nodes[i],j)))] = val
                 countFalse+=1
         i+=1
     print("P-value:" +str(stats.binom_test([countTrue, countFalse], alternative='greater')))
