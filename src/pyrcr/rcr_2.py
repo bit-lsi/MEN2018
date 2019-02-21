@@ -68,7 +68,7 @@ def path_validation(graph, nodes_dict, source_node, target_node):
     edges_val=1
     for n in path:
         while i<len(path)-1:
-            if edge_relation(graph, path[i], path[i+1]) not int:
+            if type(edge_relation(graph, path[i], path[i+1]))!=int:
                 continue
             edges_val*=edge_relation(graph, path[i], path[i+1])
             i+=1
