@@ -120,14 +120,14 @@ def get_paths_graphs(graph01, graph02, boolean):
     countTrue=0
     countFalse=0
     dict_paths={}
-    for i in range(len(path)):
-        for j in merged_nodes:
-            val=path_validation(merged,nodes_dict , path[i], j)
+    for i in range(len(graph01_nodes)):
+        for j in graph02_nodes:
+            val=path_validation(graph02,nodes_dict , graph01_nodes[i], j)
             if val==True:
-                dict_paths[nx.shortest_path(merged, path[i],j)]=val
+                dict_paths[nx.shortest_path(graph02, graph01_nodes[i],j)]=val
                 countTrue+=1
             elif val==False:
-                dict_paths[nx.shortest_path(merged, path[i],j)]=val
+                dict_paths[nx.shortest_path(graph02, graph01_nodes[i],j)]=val
                 countFalse+=1
         i+=1
     print("P-value:" +stats.binom_test([countTrue, countFalse], alternative='greater'))
