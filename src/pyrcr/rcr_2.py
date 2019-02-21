@@ -109,3 +109,28 @@ def edge_relation(graph, source_node, target_node):
     """
     for iden, edge_d in graph[source_node][target_node].items():
         return relations[edge_d['relation']]
+    
+def get_paths_graphs(graph01, graph02, boolean):
+    graph01_nodes=[]
+    graph02_nodes=[]
+    for node in graph01.nodes():
+        graph01_nodes.append(node)
+    for node in graph02.nodes():
+        graph01_nodes.append(node)
+    countTrue=0
+    countFalse=0
+    dict_paths={}
+    for i in range(len(path)):
+        for j in merged_nodes:
+            val=path_validation(merged,nodes_dict , path[i], j)
+            if val==True:
+                dict_paths[(nx.shortest_path(merged, path[i],j)]=val
+                countTrue+=1
+            elif val==False:
+                dict_paths[(nx.shortest_path(merged, path[i],j)]=val
+                countFalse+=1
+        i+=1
+    if boolean==True:
+        return dict_paths
+    else:
+        return "True = "+countTrue+"\n"+"False= "+countFalse
