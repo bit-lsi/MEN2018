@@ -185,7 +185,6 @@ example_3 = make_graph_3()
 example_4 = make_graph_4()
 
 
-
 def mapvalue(file, graph):
     df = pd.read_csv(file)
     gene_expression_dict = dict()
@@ -199,22 +198,22 @@ def mapvalue(file, graph):
         if i.name in gene_expression_dict:
             attrs2[i] = {'value':gene_expression_dict[i.name]}
 
-nx.set_node_attributes(graph, attrs2)
+    nx.set_node_attributes(graph, attrs2)
     graph.nodes(data=True)
     return graph
 
 
-def graph_test(graph):
-    graph = mapvalue('test.csv', graph)
+def graph_test(graph, file_path):
+    graph = mapvalue(file_path, graph)
     listnodes = list(graph.nodes())
     allpairs = itertools.permutations(listnodes,2)
-    edgevaluedict =dict()
+    edgevaluedict = dict()
     edgevalues = nx.get_edge_attributes(graph,'relation')
-    mapdict={'increases':1,'decreases':-1,'association':0}
+    mapdict = {'increases': 1, 'decreases': -1, 'association': 0}
 
-    for n,e  in edgevalues.items():
-        nodes=n[:2]
-        edgevalue=mapdict[e]
+    for n, e in edgevalues.items():
+        nodes = n[:2]
+        edgevalue = mapdict[e]
 
         edgevaluedict[nodes]= edgevalue
 
@@ -247,11 +246,12 @@ def graph_test(graph):
     return resultdict
 
 
-def search_node (graph, interesting_node, file_path):
+def search_node(graph, interesting_node, file_path):
     if interesting_node not in graph :
-        print ('The node is not in the graph, please change anoher node')
+        print('The node is not in the graph, please change anoher node')
     else:
         wholedict = graph_test(graph, file_path)
         return wholedict[interesting_node]
 
 
+#print(search_node(example_2,gene_f, '/Users/faridkhan/Desktop/MEN2018/data/test.csv'))
