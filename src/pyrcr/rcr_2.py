@@ -63,10 +63,10 @@ def path_validation(graph, nodes_dict, source_node, target_node):
         return "Experimental data missing in path"
     s_node_val=graph.node[source_node]['value']
     path= nx.shortest_path(graph, source_node, target_node)
-    i=0
     nodes_val=1
     edges_val=1
     for n in path:
+        i=0
         while i<len(path)-1:
             if type(edge_relation(graph, path[i], path[i+1]))!=int:
                 continue
