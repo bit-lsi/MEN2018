@@ -65,13 +65,12 @@ def path_validation(graph, nodes_dict, source_node, target_node):
     path= nx.shortest_path(graph, source_node, target_node)
     nodes_val=1
     edges_val=1
-    for n in path:
-        i=0
-        while i<len(path)-1:
-            if type(edge_relation(graph, path[i], path[i+1]))!=int:
-                continue
-            edges_val*=edge_relation(graph, path[i], path[i+1])
-            i+=1
+    i=0
+    while i<len(path)-1:
+        if type(edge_relation(graph, path[i], path[i+1]))!=int:
+            continue
+        edges_val*=edge_relation(graph, path[i], path[i+1])
+        i+=1
     nodes_val=graph.node[target_node]['value']*s_node_val
     if edges_val==0:
         return "path cannot be evaluated"
