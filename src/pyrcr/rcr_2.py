@@ -68,6 +68,8 @@ def path_validation(graph, nodes_dict, source_node, target_node):
     edges_val=1
     for n in path:
         while i<len(path)-1:
+            if type(edge_relation(graph, path[i], path[i+1]))!=int:
+                continue
             edges_val*=edge_relation(graph, path[i], path[i+1])
             i+=1
     nodes_val=graph.node[target_node]['value']*s_node_val
@@ -112,6 +114,11 @@ def edge_relation(graph, source_node, target_node):
         return relations[edge_d['relation']]
     
 def get_paths_graphs(graph01, graph02, nodes_dict, boolean):
+    """
+    This function can be used to find paths between two graphs
+    if boolean = True, the function will return the paths found and their validation
+    if boolean = False, the function will just return the number of True and False paths
+    """
     graph01_nodes=[]
     graph02_nodes=[]
     for node in graph01.nodes():
@@ -136,4 +143,4 @@ def get_paths_graphs(graph01, graph02, nodes_dict, boolean):
     if boolean==True:
         return dict_paths_true, dict_paths_false    
     else:
-        return "True = "+str(countTrue)+"\nFalse= "+str(countFalse)
+        return "True = "+str(countTrue)+", False= "+str(countFalse)
